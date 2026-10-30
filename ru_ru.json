@@ -1,0 +1,36 @@
+{
+  "key.category.mymod.main": "Quick Drop",
+  "key.mymod.drop": "Выбросить предметы по фильтру (в GUI контейнера)",
+  "key.mymod.toggle_hovered": "Добавить/убрать предмет под курсором в фильтр",
+
+  "mymod.button.drop": "Выбросить",
+  "mymod.button.drop.tooltip": "Мгновенно выбросить все предметы, подходящие под фильтр",
+  "mymod.button.settings": "Фильтр",
+  "mymod.button.settings.tooltip": "Настройки фильтра и список предметов",
+
+  "mymod.config.title": "Quick Drop — настройки",
+  "mymod.config.mode": "Режим: %s",
+  "mymod.config.mode.tooltip": "Только из списка: выбрасываются предметы, которые есть в списке.\nВсё, кроме списка: выбрасывается всё, чего в списке НЕТ.",
+  "mymod.mode.whitelist": "только список",
+  "mymod.mode.blacklist": "всё, кроме списка",
+  "mymod.config.scope": "Где: %s",
+  "mymod.config.scope.tooltip": "Откуда брать предметы. Контейнер = сундук, бочка, шалкер, воронка, раздатчик.",
+  "mymod.scope.inventory": "инвентарь",
+  "mymod.scope.container": "контейнер",
+  "mymod.scope.both": "инвентарь + контейнер",
+  "mymod.config.hotbar": "Хотбар: %s",
+  "mymod.config.hotbar.tooltip": "Можно ли выбрасывать слоты хотбара.\nБроня и вторая рука не трогаются никогда.",
+  "mymod.config.messages": "Сообщения: %s",
+  "mymod.config.on": "вкл",
+  "mymod.config.off": "выкл",
+  "mymod.config.add": "Добавить",
+  "mymod.config.hint": "id, #тег или мод:*",
+  "mymod.config.invalid": "Некорректная запись",
+  "mymod.config.added": "Добавлено: %s",
+
+  "mymod.msg.cursor_busy": "[Quick Drop] Сначала убери предмет с курсора",
+  "mymod.msg.empty_list": "[Quick Drop] Список пуст — открой «Фильтр» и добавь предметы",
+  "mymod.msg.nothing": "[Quick Drop] Подходящих предметов нет",
+  "mymod.msg.added": "[Quick Drop] Добавлено в список: %s",
+  "mymod.msg.removed": "[Quick Drop] Убрано из списка: %s"
+}

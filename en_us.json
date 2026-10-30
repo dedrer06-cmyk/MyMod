@@ -1,0 +1,36 @@
+{
+  "key.category.mymod.main": "Quick Drop",
+  "key.mymod.drop": "Drop filtered items (container screen)",
+  "key.mymod.toggle_hovered": "Add/remove hovered item to/from filter",
+
+  "mymod.button.drop": "Drop",
+  "mymod.button.drop.tooltip": "Instantly drop every item that matches the filter",
+  "mymod.button.settings": "Filter",
+  "mymod.button.settings.tooltip": "Filter settings and item list",
+
+  "mymod.config.title": "Quick Drop settings",
+  "mymod.config.mode": "Mode: %s",
+  "mymod.config.mode.tooltip": "Only listed: drops items that are in the list.\nAll except listed: drops everything that is NOT in the list.",
+  "mymod.mode.whitelist": "only listed",
+  "mymod.mode.blacklist": "all except listed",
+  "mymod.config.scope": "Scope: %s",
+  "mymod.config.scope.tooltip": "Where to look for items. Container = chest, barrel, shulker box, hopper, dispenser.",
+  "mymod.scope.inventory": "inventory",
+  "mymod.scope.container": "container",
+  "mymod.scope.both": "inventory + container",
+  "mymod.config.hotbar": "Hotbar: %s",
+  "mymod.config.hotbar.tooltip": "Whether hotbar slots can be dropped.\nArmor and offhand are never touched.",
+  "mymod.config.messages": "Messages: %s",
+  "mymod.config.on": "ON",
+  "mymod.config.off": "OFF",
+  "mymod.config.add": "Add",
+  "mymod.config.hint": "id, #tag or mod:*",
+  "mymod.config.invalid": "Invalid entry",
+  "mymod.config.added": "Added: %s",
+
+  "mymod.msg.cursor_busy": "[Quick Drop] Put the item on your cursor away first",
+  "mymod.msg.empty_list": "[Quick Drop] The list is empty - open \"Filter\" and add items",
+  "mymod.msg.nothing": "[Quick Drop] No matching items",
+  "mymod.msg.added": "[Quick Drop] Added to list: %s",
+  "mymod.msg.removed": "[Quick Drop] Removed from list: %s"
+}

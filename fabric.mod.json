@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mymod",
+  "version": "${version}",
+  "name": "Quick Drop",
+  "description": "One-click / hotkey instant dropping of filtered items from your inventory and chests.",
+  "authors": [],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.mymod.QuickDropClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "mymod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
